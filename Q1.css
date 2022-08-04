@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-bar {
+  width: 100%;
+  background-color: #008dc9;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar ul li {
+  list-style: none;
+  padding: 1.5rem;
+}
+.nav-bar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.nav-bar ul li a:hover {
+  font-weight: bold;
+}
+.my-info {
+  margin: 0px 1.56rem;
+}
+.over-view {
+  font-size: 2.82rem;
+  color: #008dc9;
+}
+.my-p-vid {
+  display: flex;
+  justify-content: space-evenly;
+}
+.my-ol {
+  line-height: 1.6;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+.my-articles {
+  display: flex;
+  justify-content: space-evenly;
+}
+.my-footer {
+  width: 100%;
+  background-color: #008dc9;
+}
+.my-p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-right: 1.75rem;
+}
+.my-p-2 {
+  font-size: 1.1rem;
+}
+.my-img {
+  width: 100%;
+  height: 700px;
+  margin-bottom: 1.56rem;
+}
+.my-vid-h1 {
+  font-size: 2.81rem;
+}
+.if1 {
+  width: 560px;
+  height: 315px;
+}
+.my-p-symp {
+  font-size: 1.1rem;
+}
+.art-img {
+  height: 300px;
+  width: 450px;
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .my-articles {
+    flex-flow: column wrap;
+    align-content: center;
+  }
+  .over-view {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .my-p-vid {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .cvd {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .my-p {
+    font-size: 0.7rem;
+  }
+  .my-ol {
+    font-size: 0.7rem;
+  }
+  .my-p-2 {
+    font-size: 0.7rem;
+  }
+  .my-img {
+    height: 300px;
+  }
+  .my-vid-h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .if1 {
+    width: 370px;
+    height: 200px;
+  }
+  .my-p-symp {
+    font-size: 0.7rem;
+  }
+  .art-img {
+    width: 330px;
+    height: 200px;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  h4 {
+    font-size: 0.6rem;
+  }
+  .nav-bar ul li a {
+    font-size: 0.92rem;
+  }
+  .art-1 {
+    margin: 0.5rem 0rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .my-articles {
+    flex-flow: column wrap;
+    align-content: center;
+  }
+  .over-view {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .my-p-vid {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .cvd {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  .my-p {
+    font-size: 0.9rem;
+  }
+  .my-ol {
+    font-size: 0.9rem;
+  }
+  .my-p-2 {
+    font-size: 0.89rem;
+  }
+  .my-img {
+    height: 500px;
+  }
+  .my-vid-h1 {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+  .if1 {
+    width: 480px;
+    height: 290px;
+  }
+  .my-p-symp {
+    font-size: 0.9rem;
+  }
+  .art-1 {
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .my-articles {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .my-p-vid {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .art-img {
+    width: 360px;
+    height: 230px;
+  }
+  .art-1 {
+    margin: 10px 0px;
+  }
+  h3 {
+    font-size: 1.05rem;
+  }
+  h4 {
+    font-size: 0.85rem;
+  }
+  .my-img {
+    height: 450px;
+  }
+  /* .over-view {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .my-p-vid {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .cvd {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .my-p {
+    font-size: 0.9rem;
+  }
+  .my-ol {
+    font-size: 0.9rem;
+  }
+  .my-p-2 {
+    font-size: 0.9rem;
+  }
+  .my-img {
+    height: 320px;
+  }
+  .my-vid-h1 {
+    text-align: center;
+    font-size: 2.1rem;
+  }
+  .if1 {
+    width: 450px;
+    height: 230px;
+  }
+  .my-p-symp {
+    font-size: 0.9rem;
+  }
+  .art-img {
+    width: 350px;
+    height: 210px;
+  } */
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .my-articles {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  /* .my-p-vid {
+    flex-flow: row wrap;
+    justify-content: center;
+  } */
+  .art-img {
+    width: 440px;
+    height: 280px;
+  }
+  .art-1 {
+    margin: 14px 0px;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  .my-img {
+    height: 480px;
+  }
+  .if1 {
+    width: 440px;
+    height: 290px;
+  }
+  .my-vid-h1 {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .my-articles {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .art-1 {
+    margin: 17px 0px;
+  }
+  .my-img {
+    height: 550px;
+  }
+}
